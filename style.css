@@ -1,0 +1,142 @@
+.main{
+    background-image: url("./img/layer/BG.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    height: 17200px;
+}
+.section-1 img{
+    width: 100%;
+}
+.section-1{
+    padding-top: 1500px;
+}
+.img-section-2 img{
+    width: 900px;
+}
+
+.img-section-2{
+    padding-top: 350px;
+    display: flex;
+    justify-content: center;
+}
+.img-section-3{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.img-section-3 img{
+    width: 850px;
+}
+.img-section-4{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.img-section-4 img{
+    width: 900px;
+}
+.main{
+    width: auto;
+}
+.img-section-5 img{
+    width: 100%;
+}
+.section-5{
+    padding-top: 100px;
+}
+
+.img-section-6{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.img-section-6 img{
+    width: 1500px;
+}
+.img-section-7{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.img-section-7 img{
+    width: 900px;
+}
+.img-section-8-left img{
+    width: 700px;
+
+}
+.control-section-8{
+    display: flex;
+}
+.img-section-8-right img   {
+    width: 100%;
+}
+.section-8{
+    padding-top: 1500px;
+}
+.img-section-8-right{
+    margin-left: -465px;
+    transform: translateY(-25px);
+}
+.img-section-9{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.img-section-9 img{
+    width: 700px;
+}
+.img-section-10{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.img-section-10 img{
+    width: 1200px;
+}
+.img-section-top{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-285px);
+}
+.img-section-top img{
+    width: 100%;
+}
+.item-section-10-bottom {
+    display: flex;
+    flex-direction: column;
+}
+.item-section-10-bottom img{
+    width: 800px;
+    padding: 20px 0;
+}
+.img-section-bottom{
+    display: flex;
+    justify-content: center;
+}
+.item-section-10-bottom{
+    transform: translateY(-1680px);
+}
+.img-section-11{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.img-section-11 img{
+    width: 100%;
+}
+.img-section-11{
+    transform: translateY(-1400px);
+}
+.img-section-12{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.img-section-12 img{
+    width: 900px;
+}
+.img-section-12{
+    transform: translateY(-1400px);
+}
