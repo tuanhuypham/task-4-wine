@@ -207,7 +207,7 @@ body{
 }
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     .section-9{
         padding-top: 0 !important;
     }
@@ -221,7 +221,7 @@ body{
         padding-top: 15px;
     }
     .section-1 {
-        padding-top: 500px!important;
+        padding-top: 700px!important;
     }
     .section-1 h2 {
         font-size: 16px;
@@ -246,8 +246,8 @@ body{
         font-size: 15px!important;
     }
     .item-section-10-bottom p{
-        font-size: 9px;
-        padding-: 0;
+        font-size: 8px !important;
+        padding: 0;
     }
     .content-section-12 p {
         font-size: 18px;
@@ -291,14 +291,14 @@ body{
         padding-top: 10px !important;
     }
     .section-8 {
-        padding-top: 700px!important;
+        padding-top: 1065px!important;
     }
     .img-section-top {
         transform: translateY(-310px) !important;
         padding-top: 200px!important;
     }
     .item-section-10-bottom{
-        transform: translateY(-665px);
+        transform: translateY(-665px) !important;
     }
     .img-section-bottom{
         width: 50%;
@@ -342,10 +342,36 @@ body{
     }
 
     .main {
-        height: 600vh !important;
+        height: 800vh !important;
         overflow: hidden;
     }
     .control-section-10-2-img >.img-section-bottom{
         padding-top: 25px;
     }
+}
+
+@media screen and (max-width: 390px) {
+    .main {
+        height: 700vh !important;
+        overflow: hidden;
+    }
+    .item-section-10-bottom p {
+        font-size: 8px !important;
+    }
+    .item-section-10-bottom {
+        transform: translateY(-630px) !important;
+    }
+    .img-section-11 {
+        padding-top: 850px !important;
+    }
+}
+@media screen and (max-width: 350px) {
+
+    .item-section-10-bottom p {
+        font-size: 7px !important;
+    }
+    .item-section-10-bottom {
+        transform: translateY(-600px) !important;
+    }
+
 }
