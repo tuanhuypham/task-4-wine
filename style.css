@@ -162,11 +162,14 @@ body{
 }
 .item-section-10-bottom {
     display: flex;
-    width: 900px;
+    width: 1000px;
     flex-direction: column;
+    border: 8px solid #382312;
+    padding: 100px;
 }
 .item-section-10-bottom p{
     font-size: 35px;
+    text-align: justify;
     justify-items: center;
     padding: 0 !important;
     color: #382312;
@@ -299,6 +302,8 @@ body{
     }
     .item-section-10-bottom{
         transform: translateY(-665px) !important;
+        padding: 15px !important;
+        border: 2px solid #382312;
     }
     .img-section-bottom{
         width: 50%;
