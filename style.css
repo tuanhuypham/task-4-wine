@@ -361,7 +361,7 @@ body{
 }
 @media screen and (max-width: 430px) {
     .main {
-        height: 550vh !important;
+        height: 560vh !important;
         overflow: hidden;
     }
     .img-section-top {
@@ -372,7 +372,7 @@ body{
 
 @media screen and (max-width: 390px) {
     .main {
-        height: 700vh !important;
+        height: 600vh !important;
         overflow: hidden;
     }
     .item-section-10-bottom p {
@@ -386,7 +386,10 @@ body{
     }
 }
 @media screen and (max-width: 360px) {
-
+    .main {
+        height: 670vh !important;
+        overflow: hidden;
+    }
     .item-section-10-bottom p {
         font-size: 7px !important;
     }
