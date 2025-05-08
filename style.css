@@ -298,10 +298,6 @@ body{
     .section-8 {
         padding-top: 500px!important;
     }
-    .img-section-top {
-        transform: translateY(-310px) !important;
-        padding-top: 110px!important;
-    }
     .item-section-10-bottom{
         transform: translateY(-665px) !important;
         padding: 15px !important;
@@ -350,6 +346,10 @@ body{
     .img-section-3{
         padding-top: 8px !important;
     }
+    .img-section-top {
+        transform: translateY(-310px) !important;
+        padding-top: 160px !important;
+    }
 
     .main {
         height: 600vh !important;
@@ -359,20 +359,29 @@ body{
         padding-top: 25px;
     }
 }
-@media screen and (max-width: 430px) {
+/*@media screen and (max-width: 430px) {*/
+/*    .main {*/
+/*        height: 700vh !important;*/
+/*        overflow: hidden;*/
+/*    }*/
+/*    .img-section-top {*/
+/*        transform: translateY(-310px) !important;*/
+/*        padding-top: 156px !important;*/
+/*    }*/
+/*}*/
+@media screen and (max-width: 414px) {
     .main {
-        height: 560vh !important;
+        height: 610vh !important;
         overflow: hidden;
     }
     .img-section-top {
         transform: translateY(-310px) !important;
-        padding-top: 156px !important;
-    }
+        padding-top: 176px !important;
+        }
 }
-
 @media screen and (max-width: 390px) {
     .main {
-        height: 600vh !important;
+        height: 665vh !important;
         overflow: hidden;
     }
     .item-section-10-bottom p {
@@ -387,7 +396,7 @@ body{
 }
 @media screen and (max-width: 360px) {
     .main {
-        height: 670vh !important;
+        height: 660vh !important;
         overflow: hidden;
     }
     .item-section-10-bottom p {
