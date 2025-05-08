@@ -162,25 +162,34 @@
 <div class=" section-13">
     <img src="./img/footer.png" alt="">
 </div>
-<script>
-    function handleResponsive() {
-        const section = document.querySelector('.section-13');
 
-        if (window.innerWidth <= 480) {
-            section.style.display = 'block'; // hoặc 'flex', 'grid', tùy bạn
-            section.style.backgroundImage = "url('./img/BG-mb.jpg')";
-            section.style.backgroundSize = 'cover';
-            section.style.backgroundPosition = 'center';
-            section.style.backgroundRepeat = 'no-repeat';
-        } else {
-            section.style.display = 'none';
-            section.style.backgroundImage = ''; // Xóa background nếu cần
-        }
-    }
-    // Gọi lần đầu khi trang tải xong
-    window.addEventListener('load', handleResponsive);
-    // Gọi lại mỗi khi cửa sổ thay đổi kích thước
-    window.addEventListener('resize', handleResponsive);
-</script>
 </body>
+    <script>
+        window.onload = function() {
+            function handleResponsive() {
+                const section = document.querySelector('.section-13');
+                if (!section) return;
+
+                if (window.innerWidth <= 480) {
+                    section.style.display = 'block';
+                    section.style.backgroundImage = "url('./img/BG-mb.jpg')";
+                    section.style.backgroundSize = 'cover';
+                    section.style.backgroundPosition = 'center';
+                    section.style.backgroundRepeat = 'no-repeat';
+                } else {
+                    section.style.display = 'none';
+                    // Xóa toàn bộ các thuộc tính liên quan đến background
+                    section.style.backgroundImage = 'none';
+                    section.style.backgroundSize = '';
+                    section.style.backgroundPosition = '';
+                    section.style.backgroundRepeat = '';
+                }
+            }
+
+
+            handleResponsive(); // Gọi ngay khi trang load
+            window.addEventListener('resize', handleResponsive);
+        };
+
+    </script>
 </html>

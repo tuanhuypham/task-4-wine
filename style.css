@@ -213,6 +213,12 @@ body{
 }
 
 @media screen and (max-width: 480px) {
+    body{
+        background-image: url("./img/BG-mb.jpg") !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
     .section-9{
         padding-top: 500px !important;
     }
@@ -586,3 +592,4 @@ body{
 .section-13 img{
     width: 100%;
 }
+
