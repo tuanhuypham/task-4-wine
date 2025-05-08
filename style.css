@@ -196,12 +196,12 @@ body{
     transform: translateY(-1400px);
 }
 .content-section-12{
-    padding-top: 600px;
+    padding-top: 240px;
+    /*padding-top: 600px;*/
     display: flex;
     justify-content: center;
     width: 900px;
     margin: 0 auto;
-;
 }
 .content-section-12 p{
     font-size: 35px;
