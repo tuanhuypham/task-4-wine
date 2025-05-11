@@ -357,7 +357,7 @@ body{
     }
 
     .main {
-        height: 650vh;
+        height: 600vh;
         overflow: hidden;
     }
     .control-section-10-2-img >.img-section-bottom{
@@ -366,6 +366,7 @@ body{
 }
 @media screen and (max-width: 430px) {
     .main {
+        height: 610vh;
         overflow: hidden;
     }
     .img-section-top {
@@ -383,7 +384,7 @@ body{
         width: 85% !important;
     }
     .main {
-        height: 545vh;
+        height: 580vh;
         overflow: hidden;
     }
     .img-section-11 {
@@ -429,7 +430,7 @@ body{
         padding-top: 176px !important;
     }
     .main {
-        height: 538vh;
+        height: 560vh;
         overflow: hidden;
     }
     .section-9 {
@@ -476,6 +477,7 @@ body{
         transform: translateY(-600px) !important;
     }
     .main {
+        height: 620vh;
         overflow: hidden;
     }
     .section-9 {
@@ -511,6 +513,7 @@ body{
         width: 75% !important;
     }
     .main {
+        height: 610vh;
         overflow: hidden;
     }
     .section-9 {
