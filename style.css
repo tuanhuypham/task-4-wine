@@ -155,6 +155,9 @@ body{
 .img-section-10 img{
     width: 1200px;
 }
+.img-section-8-right-sub{
+    display: none;
+}
 .img-section-top{
     display: flex;
     justify-content: center;
@@ -218,6 +221,16 @@ body{
         background-size: cover;
         background-position: top center;
     }
+    .img-section-8-right{
+        display: none;
+    }
+    .img-section-8-right-sub{
+        display: block;
+        width: 50%;
+    }
+    .img-section-8-right-sub img{
+        width: 100%;
+    }
     .section-9{
         padding-top: 500px !important;
     }
@@ -261,7 +274,6 @@ body{
     }
     .content-section-12 p {
         font-size: 18px;
-
     }
     .content-section-12{
         padding-top: 0;
@@ -293,10 +305,7 @@ body{
     .img-section-3 img{
         width: 100% !important;
     }
-    .img-section-8-right img{
-        width: 100% !important;
 
-    }
     .section-5{
         padding-top: 10px !important;
     }
@@ -329,6 +338,9 @@ body{
     }
 
     .img-section-8-left img {
+        width: 100%;
+    }
+    .img-section-8-left {
         width: 50%;
     }
     .content-section-7{
@@ -344,10 +356,7 @@ body{
     .img-section-11 {
         padding-top: 780px;
     }
-    .img-section-8-right {
-        margin-left:0 !important; ;
-        transform: none;
-    }
+
     .img-section-3{
         padding-top: 8px !important;
     }
@@ -364,29 +373,18 @@ body{
         padding-top: 25px;
     }
 }
-@media screen and (max-width: 430px) {
-    .main {
-        height: 610vh;
-        overflow: hidden;
-    }
-    .img-section-top {
-        transform: translateY(-310px) !important;
-        padding-top: 156px !important;
-    }
-}
 @media screen and (max-width: 428px) {
-    .img-section-8-right {
-        margin-left: 0 !important;
-        transform: none;
-        padding-top: 267px !important;
-    }
+
     .img-section-8-left img {
-        width: 85% !important;
+        width: 50% !important;
+    }
+    .content-section-12 p{
+        font-size: 18px;
     }
     .main {
-        height: 580vh;
         overflow: hidden;
     }
+
     .img-section-11 {
         padding-top: 845px;
     }
@@ -400,13 +398,13 @@ body{
         padding-top: 0 !important;
     }
     .section-1{
-        padding-top: 400px !important;
+        padding-top: 640px !important;
     }
     .section-1 h2 {
         font-size: 14px !important;
     }
     .item-section-10-bottom p {
-        font-size: 14px !important;
+        font-size: 16px !important;
     }
     .item-section-10-bottom {
         transform: translateY(-600px) !important;
@@ -414,37 +412,69 @@ body{
     .img-section-8{
         padding: 0 !important;
     }
+    .content-section-9 p {
+        font-size: 18px !important;
+    }
+    .content-section-4 p {
+        font-size: 18px !important;
+    }
+    .content-section-7 p {
+        font-size: 18px !important;
+    }
+    .section-10{
+        padding-top: 662px !important;
+    }
+    .control-section-8 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 414px) {
-    .img-section-8-right {
-        margin-left: 0 !important;
-        transform: none;
-        padding-top: 267px !important;
-    }
+
     .img-section-8-left img {
-        width: 65% !important;
+        width: 58% !important;
+    }
+    .section-1{
+        padding-top: 540px !important;
     }
     .img-section-top {
         transform: translateY(-310px) !important;
         padding-top: 176px !important;
     }
+    .content-section-4 p{
+        font-size: 21px !important;
+    }
+    .content-section-7 p {
+        font-size: 21px !important;
+    }
+    .section-10 {
+        padding-top: 525px !important;
+    }
     .main {
-        height: 560vh;
         overflow: hidden;
     }
+    .content-section-9 p{
+        font-size: 21px !important;
+    }
     .section-9 {
-        padding-top: 35px !important;
+        padding-top: 50px !important;
     }
     .content-section-7 {
         padding-top: 0 !important;
     }
+    .control-section-8{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
     .section-8{
         padding-top: 0!important;
     }
-    .section-1{
-        padding-top: 350px !important;
-    }
+
     .section-1 h2 {
         font-size: 14px !important;
     }
@@ -460,15 +490,16 @@ body{
     .img-section-8{
         padding: 0 !important;
     }
+    .content-section-12 p {
+        font-size: 16px !important;
+    }
 }
 @media screen and (max-width: 390px) {
-    .img-section-8-right {
-        margin-left: 0 !important;
-        transform: none;
-        padding-top: 345px !important;
+    .section-10 {
+        padding-top: 560px !important;
     }
     .img-section-8-left img {
-        width: 85% !important;
+        width: 65% !important;
     }
     .item-section-10-bottom p {
         font-size: 14px !important;
@@ -476,8 +507,16 @@ body{
     .item-section-10-bottom {
         transform: translateY(-600px) !important;
     }
+    .content-section-9 p {
+        font-size: 18px !important;
+    }
+    .content-section-4 p {
+        font-size: 18px !important;
+    }
+    .content-section-7 p {
+        font-size: 18px !important;
+    }
     .main {
-        height: 620vh;
         overflow: hidden;
     }
     .section-9 {
@@ -490,7 +529,7 @@ body{
         padding-top: 0 !important;
     }
     .section-1{
-        padding-top: 350px !important;
+        padding-top: 470px !important;
     }
     .section-1 h2 {
         font-size: 14px !important;
@@ -501,71 +540,98 @@ body{
     .img-section-8{
         padding: 0 !important;
     }
+    .content-section-12 p {
+        font-size: 14px !important;
+    }
 
 }
 @media screen and (max-width: 375px) {
-    .img-section-8-right {
-        margin-left: 0 !important;
-        transform: none;
-        padding-top: 267px !important;
+    .content-section-9 p {
+        font-size: 18px !important;
     }
+    .control-section-8 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-section-4 p {
+        font-size: 18px !important;
+    }
+
+    .img-section-11 {
+        padding-top: 820px;
+    }
+
     .img-section-8-left img {
-        width: 75% !important;
+        width: 50% !important;
     }
+
     .main {
-        height: 610vh;
         overflow: hidden;
     }
+
     .section-9 {
+        margin-top: 0;
         padding-top: 35px !important;
     }
+
+    .section-10 {
+        padding-top: 500px !important;
+    }
+
     .content-section-7 {
         padding-top: 0 !important;
     }
-    .section-8{
+
+    .content-section-7 p {
+        font-size: 18px !important;
+    }
+
+    .section-8 {
         padding-top: 0 !important;
     }
-    .section-1{
-        padding-top: 355px !important;
+
+    .section-1 {
+        padding-top: 455px !important;
     }
+
     .section-1 h2 {
         font-size: 14px !important;
     }
+
     .item-section-10-bottom p {
         font-size: 14px !important;
     }
+
     .item-section-10-bottom {
         transform: translateY(-600px) !important;
     }
-    .img-section-8{
+
+    .img-section-8 {
         padding: 0 !important;
     }
 }
 @media screen and (max-width: 360px) {
     .img-section-11 {
-        padding-top:790px;
-    }
-    .img-section-8-right {
-
-        margin-left: 0 !important;
-        transform: none;
-        padding-top: 267px !important;
+        padding-top:765px !important;
     }
     .img-section-8-left img {
-        width: 75% !important;
+        width: 55% !important;
     }
     .item-section-10-bottom p {
-        font-size: 14px !important;
+        font-size: 11px;
     }
     .item-section-10-bottom {
         transform: translateY(-600px) !important;
     }
     .main {
-        height: 610vh;
         overflow: hidden;
     }
     .section-9 {
         padding-top: 35px !important;
+
     }
     .content-section-7 {
         padding-top: 0 !important;
@@ -574,7 +640,7 @@ body{
         padding-top: 0 !important;
     }
     .section-1{
-        padding-top: 350px !important;
+        padding-top: 420px !important;
     }
     .section-1 h2 {
         font-size: 14px !important;
@@ -585,6 +651,12 @@ body{
     }
     .img-section-8{
         padding: 0 !important;
+    }
+    .content-section-12 p {
+        font-size: 17px !important;
+    }
+    .section-10 {
+        padding-top: 400px !important;
     }
 }
 .section-13 img{
