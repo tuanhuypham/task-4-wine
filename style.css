@@ -398,3 +398,41 @@
                 display: block !important;
         }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+        .flu {
+                top: -5vh !important;
+        }
+        .flu3 {
+                top: 0vh !important;
+        }
+        .p_2{
+                font-size: 1.4rem;
+                font-family: "Noto Sans", sans-serif;
+                margin: 0 auto;
+                text-align: justify;
+                font-weight: 400;
+                line-height: 1.4;
+                color: rgb(56, 35, 18);
+        }
+        .img-section-7-l, .img-section-7-r {
+                width: 700px !important;
+        }
+        .flu_9{
+                top: 0!important;
+        }
+        .p_7{
+                font-size: 1.3rem !important;
+                padding: 0px 20px !important;
+        }
+        .flu_8{
+                top:0 !important;
+        }
+        .text-box{
+                padding: 20px !important;
+        }
+        .text-box .p_5{
+                font-size: 20px !important;
+        }
+}
+
