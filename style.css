@@ -279,7 +279,7 @@
         .img_background_section_1,
         .img-section-7-l img,
         .img-section-7-r img {
-                width: 100% !important;
+                width: 90% !important;
                 height: auto !important;
                 display: block;
                 margin: 0 auto;
@@ -353,5 +353,40 @@
         .last_l_p{
                 padding-top: 20px;
                 padding-bottom: 20px;
+        }
+        .flu {
+                top: -2vh !important;
+        }
+        .flu3 {
+                top: -10vh !important;
+        }
+        .section_5 img{
+                height: 200px;
+        }
+        .img-section-3 {
+                display: none !important;
+        }
+        .img_background_section_1{
+                display: none !important;
+        }
+        .img-section_5{
+                display: none !important;
+        }
+        .section_5 >.container-fluid{
+                top:2px;
+        }
+        .section_2{
+                background-image: url("./Layer/backround-img-1.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                height:fit-content;
+                width: 100%;
+        }
+        .img-section-6-web{
+                display: none !important;
+        }
+        .img-section-6-mobile{
+                display: block !important;
         }
 }
