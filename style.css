@@ -160,7 +160,7 @@
 }
 .flu_8 {
         height: 100%;
-        top: 0%;
+        top: 0;
 }
 .title_2 {
         display: block;
@@ -397,6 +397,12 @@
         .img-section-6-mobile{
                 display: block !important;
         }
+        .flu_9{
+                top: 0!important;
+        }
+        .flu_8{
+                top:-10vh;
+        }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -435,4 +441,3 @@
                 font-size: 20px !important;
         }
 }
-
