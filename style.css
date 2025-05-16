@@ -270,19 +270,27 @@
         }
 
         .headline,
-        .title_1 img,
         .title_2 img,
         .section_10 img,
         .section_8 img,
         .section_9 img,
         .pic_2 img,
         .img_background_section_1,
-        .img-section-7-l img,
+
         .img-section-7-r img {
-                width: 90% !important;
+                width: 100% !important;
                 height: auto !important;
                 display: block;
                 margin: 0 auto;
+        }
+        .title_1 img{
+                width: 85% !important;
+        }
+        .img-section-7-l img{
+                width: 90% !important;
+        }
+        .img-section-7-l{
+                padding-left: 20px!important;
         }
         .title_2 img{
                 width: 80% !important;
